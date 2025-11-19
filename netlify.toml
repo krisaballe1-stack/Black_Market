@@ -1,0 +1,14 @@
+# This is the build settings section for your Netlify site.
+# This file will override the settings in the Netlify UI.
+
+[build]
+  # This command installs your backend dependencies.
+  command = "npm install"
+
+  # IMPORTANT: Change "api" to the name of the folder where your functions are.
+  # If you used the default, it would be "netlify/functions".
+  functions = "api"
+
+# This section sets the Node.js version for your functions.
+[build.environment]
+  NODE_VERSION = "22"
