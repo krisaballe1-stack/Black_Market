@@ -66,7 +66,7 @@ const upload = multer({
 app.use("/uploads", express.static("uploads"));
 
 // MongoDB Connection
-mongoose.connect("mongodb+srv://krisaballe:Timogan00@cluster0.8bggl4v.mongodb.net/?appName=Cluster0", {
+mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
