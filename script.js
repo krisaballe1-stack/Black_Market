@@ -1,7 +1,7 @@
 // Configuration - Auto-detect API base URL
 const API_BASE = window.location.hostname === 'localhost' 
     ? 'http://localhost:3000/api' 
-    : '';
+    : 'https://black-market-orc8.onrender.com/api';
 
 // Global variables
 let currentUser = JSON.parse(localStorage.getItem("currentUser")) || null;
