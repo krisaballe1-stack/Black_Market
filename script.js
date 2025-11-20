@@ -2,7 +2,7 @@
 // --- IMPORTANT ---
 // PASTE YOUR RENDER BACKEND URL HERE.
 // Example: 'https://my-cool-api.onrender.com'
-const RENDER_API_URL = 'https://YOUR_RENDER_APP_NAME.onrender.com/api'; // <-- PASTE YOUR RENDER URL HERE
+const RENDER_API_URL = 'https://black-market-orc8.onrender.com/api'; // <-- PASTE YOUR RENDER URL HERE
 
 const API_BASE = window.location.hostname === 'localhost' 
     ? 'http://localhost:5000/api'  // Use port 5000 for local backend development
