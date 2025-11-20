@@ -19,7 +19,7 @@ const corsOptions = {
     'http://localhost:5500',  // For VS Code Live Server
     'http://127.0.0.1:3000',
     'http://127.0.0.1:5500',
-    '' // <-- IMPORTANT: Replace with your actual Netlify URL
+    'https://black-market1.netlify.app' // <-- IMPORTANT: Replace with your actual Netlify URL
   ],
   credentials: true, // Allow cookies to be sent with requests
   optionsSuccessStatus: 200
